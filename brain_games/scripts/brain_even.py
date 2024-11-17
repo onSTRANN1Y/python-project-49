@@ -9,6 +9,7 @@ import random
 
 def parity_check():
     name = main()
+    print(f'Hello, {name}!')
     print('Answer "yes" if the number is even, otherwise answer "no".')
     x = 0
     flag = ''
