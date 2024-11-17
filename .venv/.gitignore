@@ -1,4 +1,2 @@
 # created by virtualenv automatically
-*.pyc
-__pycache__/
-*.pyc __pycache__/
+
