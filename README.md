@@ -18,7 +18,17 @@
 #	Запуск игры 'Brain-even'
     poetry run brain-even
 
-#	Демонстрация 'Brain-even':
+#	Демонстрация игры 'Brain-even':
     https://asciinema.org/a/mc34MGyaLHGwrZetgAM799gi0
+
+
+
+
+#	Запуск игры 'Brain-calc'
+    poetry run brain-calc
+
+#	Демонстрация игры 'Brain-calc'
+    https://asciinema.org/a/G1mAVrt71NGE9tmQHNEsgXdhD
+
 
 	
