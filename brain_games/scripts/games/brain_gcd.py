@@ -10,7 +10,6 @@ def gcd_game():
     print(f'Hello, {name}!')
     print('Find the greatest common divisor of given numbers.')
     count = 0
-    flag = ''
     for i in range(3):
         number_1 = randint(10, 20)
         number_2 = randint(1, 50)
@@ -34,6 +33,3 @@ def lose_game(answer, numbers_gcd, name):
 
 if __name__ == '__main__':
     gcd_game()
-
-
-

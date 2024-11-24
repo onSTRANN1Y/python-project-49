@@ -21,12 +21,8 @@ def calculator():
                 flag = number1 - number2
             case '*':
                 flag = number1 * number2
-
-
         print(f'Question: {number1} {operathion} {number2}')
         answer = integer('You answer: ')
-
-
         if flag == answer:
             print('Correct!')
             count += 1
