@@ -7,28 +7,33 @@
 
 
 
-#	Установите зависимости:
+#1	Установите зависимости:
     poetry install
 
 
-#	Соберите и установите пакет:
+#2	Соберите и установите пакет:
     poetry build
 
 
-#	Запуск игры 'Brain-even'
+#3	Запуск игры 'Brain-even'
     poetry run brain-even
 
-#	Демонстрация игры 'Brain-even':
+#3.1	Демонстрация игры 'Brain-even':
     https://asciinema.org/a/mc34MGyaLHGwrZetgAM799gi0
 
 
 
 
-#	Запуск игры 'Brain-calc'
+#4	Запуск игры 'Brain-calc':
     poetry run brain-calc
 
-#	Демонстрация игры 'Brain-calc'
+#4.1	Демонстрация игры 'Brain-calc':
     https://asciinema.org/a/G1mAVrt71NGE9tmQHNEsgXdhD
 
 
 	
+#5	Запуск игры 'Brain-gcd':
+    poetry run brain-gcd
+
+#5.1	Демонстрация игры 'Brain-gcd':
+    https://asciinema.org/a/5Dm5bHRv2qLQXs6hrPFUM6WkS
