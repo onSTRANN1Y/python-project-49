@@ -37,3 +37,10 @@
 
 #5.1	Демонстрация игры 'Brain-gcd':
     https://asciinema.org/a/5Dm5bHRv2qLQXs6hrPFUM6WkS
+
+
+#6	Запуск игры 'Brain-progression':
+    poetry run brain-progression
+
+#6.1	Демонстрация игры 'Brain-progression':
+    https://asciinema.org/a/KxWWY5FWVV50R4pKGq96UrT0f
