@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from brain_games.scripts.brain_games import main
-import prompt
-import random
+from random import randint, choice
+from prompt import integer
 
 
 def calculator():
@@ -11,9 +11,9 @@ def calculator():
     flag = 0
     count = 0
     for i in range(3):
-        number1 = random.randint(1, 50)
-        number2 = random.randint(1, 25)
-        operathion = random.choice('+-*')
+        number1 = randint(1, 50)
+        number2 = randint(1, 25)
+        operathion = choice('+-*')
         match operathion:
             case '+':
                 flag = number1 + number2
@@ -24,7 +24,8 @@ def calculator():
 
 
         print(f'Question: {number1} {operathion} {number2}')
-        answer = prompt.integer('You answer: ')
+        answer = integer('You answer: ')
+
 
         if flag == answer:
             print('Correct!')
@@ -43,4 +44,3 @@ def lose_game(answer, flag, name):
 
 if __name__ == '__main__':
     calculator()
-

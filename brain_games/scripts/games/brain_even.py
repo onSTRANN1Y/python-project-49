@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from brain_games.scripts.brain_games import main
-import prompt
-import random
+from prompt import string
+from random import randint
 
 
 def parity_check():
@@ -11,13 +11,13 @@ def parity_check():
     count = 0
     flag = ''
     for i in range(3):
-        number = random.randint(1, 100)
+        number = randint(1, 100)
         if number % 2 == 0:
             flag = 'yes'
         else:
             flag = 'no'
         print(f'Question: {number}')
-        answer = prompt.string('Your answer: ')
+        answer = string('Your answer: ')
         if answer == flag:
             print('Correct!')
             count += 1
