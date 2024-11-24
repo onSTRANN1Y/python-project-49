@@ -4,7 +4,7 @@ from prompt import string
 from random import randint
 
 
-def parity_check():
+def brain_even():
     name = main()
     print(f'Hello, {name}!')
     print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -30,4 +30,4 @@ def parity_check():
 
 
 if __name__ == '__main__':
-    parity_check()
+    brain_even()
