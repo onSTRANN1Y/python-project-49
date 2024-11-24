@@ -14,14 +14,16 @@ def calculator():
         number1 = random.randint(1, 50)
         number2 = random.randint(1, 25)
         operathion = random.choice('+-*')
-        if operathion == '+':
-            flag = number1 + number2
-        elif operathion == '-':
-            flag = number1 - number2
-        elif operathion == '*':
-            flag = number1 * number2
+        match operathion:
+            case '+':
+                flag = number1 + number2
+            case '-':
+                flag = number1 - number2
+            case '*':
+                flag = number1 * number2
 
-        print(f'Question:{number1} {operathion} {number2}')
+
+        print(f'Question: {number1} {operathion} {number2}')
         answer = prompt.integer('You answer: ')
 
         if flag == answer:
@@ -41,3 +43,4 @@ def lose_game(answer, flag, name):
 
 if __name__ == '__main__':
     calculator()
+
