@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-from brain_games.scripts.brain_games import main
 from random import randint
 from prompt import string
 

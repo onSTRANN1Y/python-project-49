@@ -22,5 +22,6 @@ def calc():
     answer = integer('You answer: ')
     return correct_answer, answer
 
+
 if __name__ == '__main__':
     calc()

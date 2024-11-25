@@ -25,5 +25,6 @@ def brain_progression():
     answer = integer('Your answer: ')
     return correct_answer, answer
 
+
 if __name__ == '__main__':
     brain_progression()
