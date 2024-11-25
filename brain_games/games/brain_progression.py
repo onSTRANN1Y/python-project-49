@@ -21,7 +21,7 @@ def brain_progression():
     random_index = randint(0, 9)
     correct_answer = progression[random_index]
     progression[random_index] = '..'
-    print(' '.join(map(str, progression)))
+    print('Question:', ' '.join(map(str, progression)))
     answer = integer('Your answer: ')
     return correct_answer, answer
 
