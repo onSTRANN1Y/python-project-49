@@ -34,6 +34,9 @@
 Клонируйте репозиторий проекта на свой компьютер:
 
 ```git clone https://github.com/onSTRANN1Y/python-project-49```
+
+Перейдите в клонированный репозиторий:
+
 ```cd python-project-49```
 
 
