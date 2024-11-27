@@ -61,7 +61,7 @@ pipx install poetry```
 Команда для вызова игры:
 ```poetry run brain-even```
 
-[Демонстрация игры]https://asciinema.org/a/mc34MGyaLHGwrZetgAM799gi0
+[![Демонстрация игры](https://asciinema.org/a/mc34MGyaLHGwrZetgAM799gi0)
 
 ###		Игра: «Калькулятор»
 
