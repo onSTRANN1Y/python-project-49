@@ -20,16 +20,16 @@ pip install --user pipx
 pipx ensurepath
 pipx install poetry```
 
-### Установка Poetry через curl (для Linux/macOS)
+#### Установка Poetry через curl (для Linux/macOS)
 
 ```curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -```
 
-### Установка Poetry через Scoop (для Windows)
+#### Установка Poetry через Scoop (для Windows)
 
 ```scoop bucket add extras```
 ```scoop install poetry```
 
-## Шаг 2: Клонируйте репозиторий
+##### Шаг 2: Клонируйте репозиторий
 
 Клонируйте репозиторий проекта на свой компьютер:
 
@@ -37,21 +37,21 @@ pipx install poetry```
 ```cd python-project-49```
 
 
-## Шаг 3: Установите зависимости
+###### Шаг 3: Установите зависимости
 
 Используйте Poetry для установки всех необходимых зависимостей:
 
 ```poetry install```
 
 
-## Шаг 4: Активируйте виртуальное окружение
+####### Шаг 4: Активируйте виртуальное окружение
 
 Активируйте виртуальное окружение, созданное Poetry:
 
 ```poetry shell```
 
 
-## Шаг 5: Запустите игру выбрав нужную команду
+######## Шаг 5: Запустите игру выбрав нужную команду
 
 
 ###		Игра:«Проверка на чётность» 
