@@ -4,27 +4,27 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/92ecef7fa48501f2d7cd/maintainability)](https://codeclimate.com/github/onSTRANN1Y/python-project-49/maintainability)
 
-
+<!--Установка-->
 # Установка и запуск проекта
 
 Этот проект использует Poetry для управления зависимостями и виртуальным окружением. Чтобы установить и запустить проект, выполните следующие шаги:
 
-## Шаг 1: Установите Poetry
+## Шаг 1:  Установите Poetry
 
 Сначала убедитесь, что у вас установлена последняя версия Poetry. Если она еще не установлена, следуйте инструкциям на официальном сайте: https://python-poetry.org/docs/#installation.
 
-### Установка Poetry через pipx (рекомендуется)
+1. Установка Poetry через pipx (рекомендуется)
 
-```bash
-pip install --user pipx
-pipx ensurepath
-pipx install poetry```
+```bash```
+```pip install --user pipx```
+```pipx ensurepath```
+```pipx install poetry```
 
-### Установка Poetry через curl (для Linux/macOS)
+2.  Установка Poetry через curl (для Linux/macOS)
 
 ```curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -```
 
-### Установка Poetry через Scoop (для Windows)
+3.  Установка Poetry через Scoop (для Windows)
 
 ```scoop bucket add extras```
 ```scoop install poetry```
@@ -54,7 +54,7 @@ pipx install poetry```
 ## Шаг 5: Запустите игру выбрав нужную команду
 
 
-###		Игра:«Проверка на чётность» 
+1.		Игра:«Проверка на чётность» 
 
 Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное
 
@@ -63,7 +63,7 @@ pipx install poetry```
 
 [Демонстрация игры](https://asciinema.org/a/mc34MGyaLHGwrZetgAM799gi0)
 
-###		Игра: «Калькулятор»
+2.		Игра: «Калькулятор»
 
 уть игры в следующем: пользователю показывается случайное математическое выражение, например, 35 + 16, которое нужно вычислить и записать правильный ответ.
 
@@ -72,7 +72,7 @@ pipx install poetry```
 
 [Демонстрация игры](https://asciinema.org/a/G1mAVrt71NGE9tmQHNEsgXdhD)
 
-###		Игра: «НОД»
+3.		Игра: «НОД»
 
 Суть игры в следующем: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 
@@ -81,7 +81,7 @@ pipx install poetry```
 
 [Демонстрация игры](https://asciinema.org/a/5Dm5bHRv2qLQXs6hrPFUM6WkS)
 
-###		Игра: «Арифметическая прогрессия»
+4.		Игра: «Арифметическая прогрессия»
 
 Суть игры в следующем: показывается ряд чисел, который образует арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
 
@@ -90,7 +90,7 @@ pipx install poetry```
 
 [Демонстрация игры](https://asciinema.org/a/KxWWY5FWVV50R4pKGq96UrT0f)
 
-###		Игра: «Простое ли число?»
+5.		Игра: «Простое ли число?»
 
 Суть игры в следующем: нужно ответить 'yes' если число простое или 'no' если нет.
 
