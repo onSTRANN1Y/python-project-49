@@ -61,7 +61,7 @@ pipx install poetry```
 Команда для вызова игры:
 ```poetry run brain-even```
 
-[![Демонстрация игры](https://asciinema.org/a/mc34MGyaLHGwrZetgAM799gi0)
+[Демонстрация игры](https://asciinema.org/a/mc34MGyaLHGwrZetgAM799gi0)
 
 ###		Игра: «Калькулятор»
 
@@ -70,7 +70,7 @@ pipx install poetry```
 Команда для вызова игры:
 ```poetry run brain-calc```
 
-[Демонстрация игры]https://asciinema.org/a/G1mAVrt71NGE9tmQHNEsgXdhD
+[Демонстрация игры](https://asciinema.org/a/G1mAVrt71NGE9tmQHNEsgXdhD)
 
 ###		Игра: «НОД»
 
@@ -79,7 +79,7 @@ pipx install poetry```
 Команда для вызова игры:
 ```poetry run brain-gcd```
 
-[Демонстрация игры]https://asciinema.org/a/5Dm5bHRv2qLQXs6hrPFUM6WkS
+[Демонстрация игры](https://asciinema.org/a/5Dm5bHRv2qLQXs6hrPFUM6WkS)
 
 ###		Игра: «Арифметическая прогрессия»
 
@@ -88,7 +88,7 @@ pipx install poetry```
 Команда для вызова игры:
 ```poetry run brain-progression.```
 
-[Демонстрация игры]https://asciinema.org/a/KxWWY5FWVV50R4pKGq96UrT0f
+[Демонстрация игры](https://asciinema.org/a/KxWWY5FWVV50R4pKGq96UrT0f)
 
 ###		Игра: «Простое ли число?»
 
@@ -97,4 +97,4 @@ pipx install poetry```
 Команда для вызова игры:
 ```poetry run brain-prime```
 
-[Демонстрация игры]https://asciinema.org/a/86ciaYcLN4dedMlcDQ6ZTsG0t
+[Демонстрация игры](https://asciinema.org/a/86ciaYcLN4dedMlcDQ6ZTsG0t)
