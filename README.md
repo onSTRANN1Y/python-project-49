@@ -33,7 +33,7 @@
 
 Клонируйте репозиторий проекта на свой компьютер:
 
-```git clone https://github.com/onSTRANN1Y/python-project-49```
+```git clone git@github.com:onSTRANN1Y/python-project-49.git```
 
 Перейдите в клонированный репозиторий:
 
