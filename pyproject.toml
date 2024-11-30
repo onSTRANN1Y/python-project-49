@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "A collection of CLI brain games to improve logical thinking and math skills."
 authors = ["onSTRANN1Y <splashilia3@gmail.com>"]
 readme = "README.md"
 packages = [
