@@ -1,13 +1,15 @@
-#!/usr/bin/env python3
 from random import randint, choice
 from prompt import integer
 
 
-def task():
-    print('What is the result of the expression?')
+def get_correct_answer_and_task():
+    correct_answer, number1, operathion, number2 = calculating()
+    task = f'Question: {number1} {operathion} {number2}'
+    return correct_answer, task
 
 
-def calc():
+
+def calculating():
     number1 = randint(1, 50)
     number2 = randint(1, 25)
     operathion = choice('+-*')
@@ -18,10 +20,4 @@ def calc():
             correct_answer = number1 - number2
         case '*':
             correct_answer = number1 * number2
-    print(f'Question: {number1} {operathion} {number2}')
-    answer = integer('You answer: ')
-    return correct_answer, answer
-
-
-if __name__ == '__main__':
-    calc()
+    return correct_answer, number1, operathion, number2
