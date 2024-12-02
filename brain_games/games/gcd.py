@@ -1,5 +1,5 @@
-from random import randint
 from math import gcd
+from random import randint
 
 
 def get_correct_answer_and_task():
