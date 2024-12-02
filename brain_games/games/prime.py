@@ -1,28 +1,19 @@
-#!/usr/bin/env python3
 from random import randint
 from prompt import string
 
 
-def prime_number(number):
+def get_prime(number):
     if number <= 1:
-        return 'no'
+        return False
     for i in range(2, int(number**0.5) + 1):
         if number % i == 0:
-            return 'no'
-    return 'yes'
+            return False
+    return True
 
 
-def task():
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-
-
-def brain_prime():
+def get_correct_answer_and_task():
     random_number = randint(1, 100)
-    correct_answer = prime_number(random_number)
-    print(f'Question: {random_number}')
-    answer = string('You answer: ')
-    return correct_answer, answer
+    correct_answer = 'yes' if get_prime(random_number) == True else 'no'
+    task = f'Question: {random_number}'
+    return correct_answer, task
 
-
-if __name__ == '__main__':
-    brain_prime()
