@@ -19,4 +19,3 @@ def get_game_rules(get_function, question):
 Let's try again, {name}!""")
             return
     print(f'Congratulations, {name}!')
-

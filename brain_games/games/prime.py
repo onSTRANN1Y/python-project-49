@@ -1,5 +1,4 @@
 from random import randint
-from prompt import string
 
 
 def get_prime(number):
@@ -13,7 +12,6 @@ def get_prime(number):
 
 def get_correct_answer_and_task():
     random_number = randint(1, 100)
-    correct_answer = 'yes' if get_prime(random_number) == True else 'no'
+    correct_answer = 'yes' if get_prime(random_number) else 'no'
     task = f'Question: {random_number}'
     return correct_answer, task
-
