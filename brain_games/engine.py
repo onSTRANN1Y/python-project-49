@@ -1,13 +1,17 @@
-#!/usr/bin/env python3
-from brain_games.cli import welcome_user
+import prompt
 
 
-def game_engine(game_function, task_function):
-    name = welcome_user()
-    task_function()
-    for i in range(3):
-        correct_answer, answer = game_function()
-        if correct_answer == answer:
+def get_game_rules(get_function, question):
+    name = prompt.string('Welcome to the Brain Games\nMay I have your name? ')
+    print(f'Hello, {name}')
+    MAX_ROUNDS = 3
+    print(question)
+
+    for _ in range(MAX_ROUNDS):
+        correct_answer, task = get_function()
+        print(task)
+        answer = prompt.string('You answer: ')
+        if str(correct_answer) == str(answer):
             print('Correct!')
         else:
             print(f"""'{answer}' is wrong answer ;(.\
@@ -16,6 +20,3 @@ Let's try again, {name}!""")
             return
     print(f'Congratulations, {name}!')
 
-
-if __name__ == '__main__':
-    game_engine()
