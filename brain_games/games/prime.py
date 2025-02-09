@@ -1,7 +1,9 @@
 from random import randint
+from brain_games.engine import run_game
+from brain_games.consts import PRIME_INSTRUCTION
 
 
-def get_prime(number):
+def is_prime(number):
     if number <= 1:
         return False
     for i in range(2, int(number**0.5) + 1):
@@ -11,7 +13,11 @@ def get_prime(number):
 
 
 def get_correct_answer_and_task():
-    random_number = randint(1, 100)
-    correct_answer = 'yes' if get_prime(random_number) else 'no'
-    task = f'Question: {random_number}'
-    return correct_answer, task
+    number = randint(1, 100)
+    correct_answer = 'yes' if is_prime(number) else 'no'
+    question = str(number)
+    return question, correct_answer
+
+
+def run_prime_game():
+    run_game(get_correct_answer_and_task, PRIME_INSTRUCTION)

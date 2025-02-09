@@ -1,21 +1,19 @@
-from random import choice, randint
-
+import random
+from brain_games.engine import run_game
+from brain_games.consts import CALC_INSTRUCTION
 
 def get_correct_answer_and_task():
-    correct_answer, number1, operathion, number2 = calculating()
-    task = f'Question: {number1} {operathion} {number2}'
-    return correct_answer, task
+    first_num = random.randint(1, 50)
+    second_num = random.randint(1, 25)
+    
+    operation, result = random.choice([
+        ('+', first_num + second_num),
+        ('-', first_num - second_num),
+        ('*', first_num * second_num)
+    ])
+    
+    question = f'{first_num} {operation} {second_num}'
+    return question, str(result)
 
-
-def calculating():
-    number1 = randint(1, 50)
-    number2 = randint(1, 25)
-    operathion = choice('+-*')
-    match operathion:
-        case '+':
-            correct_answer = number1 + number2
-        case '-':
-            correct_answer = number1 - number2
-        case '*':
-            correct_answer = number1 * number2
-    return correct_answer, number1, operathion, number2
+def run_calc_game():
+    run_game(get_correct_answer_and_task, CALC_INSTRUCTION)
