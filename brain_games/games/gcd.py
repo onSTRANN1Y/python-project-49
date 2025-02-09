@@ -10,5 +10,6 @@ def get_correct_answer_and_task():
     question = f'{number_1} {number_2}'
     return question, str(correct_answer)
 
+
 def run_gcd_game():
     run_game(get_correct_answer_and_task, GCD_INSTRUCTION)
