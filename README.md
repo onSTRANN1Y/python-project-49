@@ -4,110 +4,105 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/92ecef7fa48501f2d7cd/maintainability)](https://codeclimate.com/github/onSTRANN1Y/python-project-49/maintainability)
 
-<!--Установка-->
-# Установка и запуск проекта
+<!--Installation-->
+# Project Installation and Launch
 
-Этот проект использует Poetry для управления зависимостями и виртуальным окружением. Чтобы установить и запустить проект, выполните следующие шаги:
+This project uses Poetry for dependency management and virtual environment. To install and run the project, follow these steps:
 
-## Шаг 1:  Установите Poetry
+## Step 1: Install Poetry
 
-Сначала убедитесь, что у вас установлена последняя версия Poetry. Если она еще не установлена, следуйте инструкциям на официальном сайте: https://python-poetry.org/docs/#installation.
+First, make sure you have the latest version of Poetry installed. If it's not installed yet, follow the instructions on the official website: https://python-poetry.org/docs/#installation.
 
-1. Установка Poetry через pipx (рекомендуется)
+1. Installing Poetry via pipx (recommended)
 
 ```bash```
 ```pip install --user pipx```
 ```pipx ensurepath```
 ```pipx install poetry```
 
-2.  Установка Poetry через curl (для Linux/macOS)
+2. Installing Poetry via curl (for Linux/macOS)
 
 ```curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -```
 
-3.  Установка Poetry через Scoop (для Windows)
+3. Installing Poetry via Scoop (for Windows)
 
 ```scoop bucket add extras```
 ```scoop install poetry```
 
-## Шаг 2: Клонируйте репозиторий
+## Step 2: Clone the Repository
 
-Клонируйте репозиторий проекта на свой компьютер:
+Clone the project repository to your computer:
 
 ```git clone git@github.com:onSTRANN1Y/python-project-49.git```
 
-Перейдите в клонированный репозиторий:
+Navigate to the cloned repository:
 
 ```cd python-project-49```
 
+## Step 3: Install Dependencies
 
-## Шаг 3: Установите зависимости
-
-Используйте Poetry для установки всех необходимых зависимостей:
+Use Poetry to install all necessary dependencies:
 
 ```poetry install```
 
+## Step 4: Activate Virtual Environment
 
-## Шаг 4: Активируйте виртуальное окружение
-
-Активируйте виртуальное окружение, созданное Poetry:
+Activate the virtual environment created by Poetry:
 
 ```poetry shell```
 
+## Step 5: Launch the Selected Game Using the Appropriate Command
 
-## Шаг 5: Запустите выбранную игру выбрав нужную команду
+1. Game: "Even Check"
 
+The essence of the game: the user is shown a random number. They need to answer 'yes' if the number is even, or 'no' if it's odd.
 
-1.		Игра:«Проверка на чётность» 
-
-Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное
-
-Команда для вызова игры:
+Command to launch the game:
 ```poetry run brain-even```
 
-[Демонстрация игры](https://asciinema.org/a/mc34MGyaLHGwrZetgAM799gi0)
+[![asciicast](https://asciinema.org/a/mc34MGyaLHGwrZetgAM799gi0.svg)](https://asciinema.org/a/mc34MGyaLHGwrZetgAM799gi0)
 
-2.		Игра: «Калькулятор»
+2. Game: "Calculator"
 
-Суть игры в следующем: пользователю показывается случайное математическое выражение, например, 35 + 16, которое нужно вычислить и записать правильный ответ.
+The essence of the game: the user is shown a random mathematical expression, for example, 35 + 16, which needs to be calculated and the correct answer entered.
 
-Команда для вызова игры:
+Command to launch the game:
 ```poetry run brain-calc```
 
-[Демонстрация игры](https://asciinema.org/a/G1mAVrt71NGE9tmQHNEsgXdhD)
+[![asciicast](https://asciinema.org/a/G1mAVrt71NGE9tmQHNEsgXdhD.svg)](https://asciinema.org/a/G1mAVrt71NGE9tmQHNEsgXdhD)
 
-3.		Игра: «НОД»
+3. Game: "GCD"
 
-Суть игры в следующем: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+The essence of the game: the user is shown two random numbers, for example, 25 50. The user must calculate and enter the greatest common divisor of these numbers.
 
-Команда для вызова игры:
+Command to launch the game:
 ```poetry run brain-gcd```
 
-[Демонстрация игры](https://asciinema.org/a/5Dm5bHRv2qLQXs6hrPFUM6WkS)
+[![asciicast](https://asciinema.org/a/5Dm5bHRv2qLQXs6hrPFUM6WkS.svg)](https://asciinema.org/a/5Dm5bHRv2qLQXs6hrPFUM6WkS)
 
-4.		Игра: «Арифметическая прогрессия»
+4. Game: "Arithmetic Progression"
 
-Суть игры в следующем: показывается ряд чисел, который образует арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
+The essence of the game: a series of numbers forming an arithmetic progression is shown, with one number replaced by two dots. The player must determine this number.
 
-Команда для вызова игры:
-```poetry run brain-progression.```
+Command to launch the game:
+```poetry run brain-progression```
 
-[Демонстрация игры](https://asciinema.org/a/KxWWY5FWVV50R4pKGq96UrT0f)
+[![asciicast](https://asciinema.org/a/KxWWY5FWVV50R4pKGq96UrT0f.svg)](https://asciinema.org/a/KxWWY5FWVV50R4pKGq96UrT0f)
 
-5.		Игра: «Простое ли число?»
+5. Game: "Is it Prime?"
 
-Суть игры в следующем: нужно ответить 'yes' если число простое или 'no' если нет.
+The essence of the game: you need to answer 'yes' if the number is prime or 'no' if it's not.
 
-Команда для вызова игры:
+Command to launch the game:
 ```poetry run brain-prime```
 
-[Демонстрация игры](https://asciinema.org/a/86ciaYcLN4dedMlcDQ6ZTsG0t)
+[![asciicast](https://asciinema.org/a/86ciaYcLN4dedMlcDQ6ZTsG0t.svg)](https://asciinema.org/a/86ciaYcLN4dedMlcDQ6ZTsG0t)
 
+## Technology Stack
 
-##	Стэк используемых технологий 
-
-1. Python 3.12.
-2. Инструмент для управления зависимостями: Poetry.
-3. Инструмент анализа кода: Flake8.
-4. автоматическая сортировка и форматирование импортов: isort.
-5. Библиотека для функционала: prompt.
+1. Python 3.12
+2. Dependency management tool: Poetry
+3. Code analysis tool: Flake8
+4. Automatic import sorting and formatting: isort
+5. Functionality library: prompt
 
